@@ -16,7 +16,7 @@ android {
     }
     defaultConfig {
         applicationId "com.eigenic.salix"
-        minSdkVersion 8
+        minSdkVersion 21
         targetSdkVersion 23
     }
 }
