@@ -114,8 +114,6 @@ public class SxSigninScreen implements Screen, Input.TextInputListener {
 
                 textPrompt.build().show();
 
-
-
             }
         });
 
