@@ -1,14 +1,17 @@
 package com.eigenic.salix.screens;
 
 import com.badlogic.gdx.Screen;
+import com.eigenic.salix.graphics.SxRenderer;
 
 /**
  * Created by HyunJun on 2016-07-21.
  */
 public class SxWorldScreen implements Screen {
 
-    public SxWorldScreen() {
+    private SxRenderer renderer;
 
+    public SxWorldScreen() {
+        renderer = new SxRenderer();
     }
 
     @Override
